@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <head>
-
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <script>
+    <h1>Rock Paper Scissors</h1>
 
+    <div id="results-container">
+        <div id="player-score-container">
+            <h2>Your Score</h2>
+            <p id="player-score">0</p>
+        </div>
+        <div id="computer-score-container">
+            <h2>Computer Score</h2>
+            <p id="computer-score">0</p>
+        </div>
+    </div>
 
-    </script>
+    <div id="buttons-container">
+        <input type="image" id="rock-button" src="img/rock.png">
+        <input type="image" id="paper-button" src="img/paper.png">
+        <input type="image" id="scissors-button" src="img/scissors.png">
+    </div>
+
+    <div id="game-log-container">
+        <p>vs</p>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
